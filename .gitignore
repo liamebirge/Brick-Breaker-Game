@@ -25,3 +25,4 @@ hs_err_pid*
 #Export files
 /Exports/*
 /res/Templates/*
+*.wav

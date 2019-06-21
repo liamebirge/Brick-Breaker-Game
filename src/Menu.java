@@ -44,7 +44,6 @@ public class Menu{
 		} else {
 			g.drawImage(tex.exit, Game.WIDTH/2-80, 450, null);
 		}
-		
 	}
 	
 	public Menu getMenu() {

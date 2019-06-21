@@ -10,7 +10,7 @@ public class imgLoader {
 	//get image data from file
 	public BufferedImage loadImage(String path){
 		try {
-			image = ImageIO.read(getClass().getResource(path));
+			image = ImageIO.read(this.getClass().getResourceAsStream(path));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
